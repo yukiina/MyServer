@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/testServ.dir/app/serv.c.o CMakeFiles/testServ.dir/app/serv_conf.c.o CMakeFiles/testServ.dir/signal/signals.c.o  -o testServ 
