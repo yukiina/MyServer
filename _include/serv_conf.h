@@ -1,7 +1,7 @@
 #ifndef SREV_CONF_H
 #define SREV_CONF_H
 
-#include <vector>
+#include <unordered_map>
 #include <fstream>
 #include <string>
 // 功能: 读配置文件 -- 单例
@@ -40,7 +40,11 @@ public:
     int GetConfInt(const std::string& key);
     std::string GetConfStr(const std::string& key);
 private:
+    bool InsertConfItem(const std::string& key, const std::string& value); // Load时候, 调用插入配置项
+private:
     static ServConf* _instance;
+public:
+    std::unordered_map<std::string, std::string>  _confItem;
 };
 
 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/testServ.dir/app/serv.cpp.o CMakeFiles/testServ.dir/app/serv_conf.cpp.o CMakeFiles/testServ.dir/app/serv_string.cpp.o  -o testServ 

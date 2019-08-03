@@ -1,0 +1,3 @@
+/mnt/hgfs/linux/MyServer/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/linux/MyServer/build/CMakeFiles/testServ.dir
+/mnt/hgfs/linux/MyServer/build/CMakeFiles/edit_cache.dir
